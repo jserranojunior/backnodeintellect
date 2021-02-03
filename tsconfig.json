@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "sourceMap": true
+  },
+  "include": ["src"],
+  "exclude": [
+    "./node_modules",
+    "lib",
+    "typings/**",
+    "src/api/*/*/__test__",
+    "node_modules/@types",
+    "node_modules/@types/mocha/**"
+  ],
+  "allowSyntheticDefaultImports": true
+}
